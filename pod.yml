@@ -12,3 +12,7 @@ spec:
     image: afakharany/watcher
     ports:
     - containerPort: 8070
+  - name: arjunaimage
+    image: arjunachari12/k8s-demo
+    ports:
+    - containerPort: 8060
